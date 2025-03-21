@@ -24,7 +24,7 @@ const BurgerMenu = ({toggleActive, active}) => {
             smooth={true}
             offset={-64}
             duration={500}
-            className="header-item xs:text-base uppercase cursor-pointer mb-7 md:text-2xl"
+            className="header-item xs:text-xl uppercase cursor-pointer md:mb-7 md:my-2 xs:my-8 md:text-2xl"
     >
             {t("burger-menu__main")}
         </Link>
@@ -35,7 +35,7 @@ const BurgerMenu = ({toggleActive, active}) => {
             smooth={true}
             offset={-64}
             duration={500}
-            className="header-item xs:text-base uppercase cursor-pointer mb-7 md:text-2xl"
+            className="header-item xs:text-xl uppercase cursor-pointer md:mb-7 md:my-2 xs:my-8 md:text-2xl"
     >
             {t("burger-menu__works")}
         </Link>
@@ -46,7 +46,7 @@ const BurgerMenu = ({toggleActive, active}) => {
             smooth={true}
             offset={-64}
             duration={500}
-            className="header-item xs:text-base uppercase cursor-pointer mb-7 md:text-2xl"
+            className="header-item xs:text-xl uppercase cursor-pointer md:mb-7 md:my-2 xs:my-8 md:text-2xl"
     >
             {t("burger-menu__stek")}
         </Link>
@@ -62,6 +62,7 @@ const BurgerMenu = ({toggleActive, active}) => {
                 <LinkedInIcon fontSize="large" className='ml-1 mr-1'/>
             </a>
         </div>
+        <a className='md:hidden xs:block my-4' href="https://freelancehunt.com/freelancer/Alexey_gal.html?from=shield&r=GArbz" target="_blank" rel='noreferrer'><img src={'https://freelancehunt.com/shields/display/id/1441777/type/rating?style=for-the-badge&amp;lang=ru'} alt="Freelancehunt — простой и честный фриланс"></img></a>
         <ToggleLanguage/>
     </ul>
     )

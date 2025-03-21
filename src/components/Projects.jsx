@@ -36,7 +36,7 @@ const Works = () => {
                                     <img src={store} alt="" className='' />
                                     <div className="card__content overflow-auto">
                                         <p className="card__title">NB Store
-                                        </p><p className="card__description">NBStore — это небольшой магазин одежды, разработанный с использованием React и современных библиотек для упрощения разработки и улучшения пользовательского опыта.</p>
+                                        </p><p className="card__description">{t('store')}</p>
 
                                         <a target='_blank' rel='noreferrer' href="https://neetrunner.github.io/NBSTORE/">
                                             <button className="pushable">
@@ -53,7 +53,7 @@ const Works = () => {
                                     <img src={pizza} alt="" className='' />
                                     <div className="card__content overflow-auto">
                                         <p className="card__title">Next Pizza
-                                        </p><p className="card__description">NextPizza — это полнофункциональное фуллстек-приложение, разработанное на React (с его экосистемой) и Express.js (с Mongoose и MongoDB). Проект полностью завершен и позволяет пользователям заказывать различные пиццы.</p>
+                                        </p><p className="card__description">{t('pizza')}</p>
 
                                         <a target='_blank' rel='noreferrer' href="https://neetrunner.github.io/PIZZA/">
                                             <button className="pushable">
@@ -70,7 +70,7 @@ const Works = () => {
                                     <img src={crypto} alt="" className='h-[200px] object-cover' />
                                     <div className="card__content overflow-auto">
                                         <p className="card__title">Crypto
-                                        </p><p className="card__description">Crypto — это веб-приложение для отслеживания информации о криптовалютах. Проект разработан с использованием React, TypeScript и Tailwind CSS. В нём я попрактиковал свои навыки работы с различными API для получения актуальных данных о криптовалютах и их изменениях.</p>
+                                        </p><p className="card__description">{t('crypto')}</p>
 
                                         <a target='_blank' rel='noreferrer' href="https://neetrunner.github.io/CRYPTO/">
                                             <button className="pushable">
@@ -87,7 +87,7 @@ const Works = () => {
                                     <img src={weather} alt="" className='h-[200px] object-cover' />
                                     <div className="card__content overflow-auto">
                                         <p className="card__title">Weather App
-                                        </p><p className="card__description">Простое веб-приложение по погоде созданное с помощью чистого React, позволяет получить прогноз погоды по городу который пользователь укажет и предоставит доп. информацию о скорости ветра и т.д</p>
+                                        </p><p className="card__description">{t('weather')}</p>
 
                                         <a target='_blank' rel='noreferrer' href="https://neetrunner.github.io/WEATHER_IN_CITIES-TS-/">
                                             <button className="pushable">

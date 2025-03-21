@@ -5,10 +5,10 @@ import Works from "./components/Projects";
 import Questions from "./components/Faq";
 import Footer from "./components/Footer";
 import BurgerMenu from "./Others/BurgerMenu";
+import Arrow from "./Others/Arrow";
 
 import { useEffect, useState } from "react";
 import { HashRouter } from "react-router-dom";
-import Arrow from "./Others/Arrow";
 
 const App = () => {
   const [active, setActive] = useState(false); // Подняли состояние чтобы передать пропс и в тот компонент и в тот
