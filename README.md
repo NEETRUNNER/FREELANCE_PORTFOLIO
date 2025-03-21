@@ -11,7 +11,7 @@
 
 🔹 Frontend:
 
-⚛ React (с TypeScript)
+⚛ React(JS)
 🎨 Tailwind CSS (адаптивный дизайн)
 🌐 i18next (мультиязычность)
 🎭 Framer Motion (анимации)
